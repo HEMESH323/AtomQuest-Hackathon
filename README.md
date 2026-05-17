@@ -31,21 +31,6 @@ The **Employee Goal Creation Workspace** enforces strict operational controls in
 
 Upon validation parity, the interface seamlessly renders a Success-Green banner (`#DCFCE7`) and activates the primary blue interactive button state.
 
-### 2. Phase 2 Progress Formulas
-The **Manager Evaluation Dashboard** and **Check-in Modules** calculate performance indexes using distinct algorithmic routines tailored by the **Unit of Measurement (UoM)**:
-
-$$
-\begin{array}{|l|l|l|}
-\hline
-\textbf{UoM Type} & \textbf{Strategic Vector} & \textbf{Algorithmic Formula} \\ \hline
-\text{Min (Numeric / \%)} & \text{Higher is better (e.g., Sales Revenue)} & \text{Progress} = \frac{\text{Actual Achievement}}{\text{Planned Target}} \times 100 \\ \hline
-\text{Max (Numeric / \%)} & \text{Lower is better (e.g., Turnaround Time)} & \text{Progress} = \frac{\text{Planned Target}}{\text{Actual Achievement}} \times 100 \\ \hline
-\text{Timeline} & \text{Milestone Date Target Compliance} & \text{If (Completion Date} \le \text{Deadline) } 100\%, \text{ else } 0\% \\ \hline
-\text{Zero} & \text{Absolute Incident Suppression} & \text{If (Actual } == 0) \, 100\%, \text{ else } 0\% \\ \hline
-\end{array}
-$$
-
----
 
 🛠️ Step-by-Step Installation & Quickstart
 To run the unified compiled build platform locally, execute the following commands in your preferred terminal workspace:

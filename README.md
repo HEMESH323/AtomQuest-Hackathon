@@ -1,3 +1,19 @@
+# 🚀 AtomQuest Goals Portal
+
+An enterprise-grade, high-performance internal B2B SaaS platform engineered for alignment, structural visibility, and quarterly performance governance. This portal replaces fragmented manual review cycles with a unified, real-time tracking architecture engineered around automated compliance guardrails, multi-role workspace isolation, and programmatic evaluation matrices.
+
+Built for the **AtomQuest Hackathon 1.0** organized by **y company**.
+
+---
+
+## 🎨 Design System & Visual Philosophy
+The application interfaces are built using the **AtomQuest Premium Enterprise Design Tokens**, prioritizing high data density without cognitive clutter. 
+
+* **Color Palette:** Dominated by an icy, professional slate canvas background (`#F8F9FF`), absolute white functional work surfaces (`#FFFFFF`), and a high-contrast Interactive Blue (`#2563EB`) reserved strictly for primary execution paths, active states, and tactical highlights.
+* **Typography Hierarchy:** Powered by **Plus Jakarta Sans** for crisp, geometric structural headers and **Inter** for highly legible, tabular numerical operational grids.
+* **Rounded Geometry:** Modernized with smooth premium corner transitions using custom mitered contours (Inputs & Tags: `6px`, System Workspace Tables: `12px`, Analytic Card Panels: `16px`).
+
+---
 ### Key Subsystems:
 1. **Simulation Identity Controller:** A persistent, global drop-down selector HUD at the top-right header that allows hackathon evaluators to instantly switch runtime views among `Employee`, `Manager`, and `Admin/HR` personas without triggering database latency or page reloads.
 2. **Goal Validation Core:** Front-end and back-end structural constraints checking active item arrays before unlocking the execution actions.
@@ -18,8 +34,18 @@ Upon validation parity, the interface seamlessly renders a Success-Green banner 
 ### 2. Phase 2 Progress Formulas
 The **Manager Evaluation Dashboard** and **Check-in Modules** calculate performance indexes using distinct algorithmic routines tailored by the **Unit of Measurement (UoM)**:
 
-$$\n\\begin{array}{|l|l|l|}\n\\hline\n\\textbf{UoM Type} & \\textbf{Strategic Vector} & \\textbf{Algorithmic Formula} \\\\ \\hline\n\\text{Min (Numeric / \\%)} & \\text{Higher is better (e.g., Sales Revenue)} & \\text{Progress} = \\frac{\\text{Actual Achievement}}{\\text{Planned Target}} \\times 100 \\\\ \\hline\n\\text{Max (Numeric / \\%)} & \\text{Lower is better (e.g., Turnaround Time)} & \\text{Progress} = \\frac{\\text{Planned Target}}{\\text{Actual Achievement}} \\times 100 \\\\ \\hline\n\\text{Timeline} & \\text{Milestone Date Target Compliance} & \\text{If (Completion Date} \\le \\text{Deadline) } 100\\%, \\text{ else } 0\\% \\\\ \\hline\n\\text{Zero} & \\text{Absolute Incident Suppression} & \\text{If (Actual } == 0) \\, 100\\%, \\text{ else } 0\\% \\\\ \\hline\n\\end{array}\n$$
+$$
+\begin{array}{|l|l|l|}
+\hline
+\textbf{UoM Type} & \textbf{Strategic Vector} & \textbf{Algorithmic Formula} \\ \hline
+\text{Min (Numeric / \%)} & \text{Higher is better (e.g., Sales Revenue)} & \text{Progress} = \frac{\text{Actual Achievement}}{\text{Planned Target}} \times 100 \\ \hline
+\text{Max (Numeric / \%)} & \text{Lower is better (e.g., Turnaround Time)} & \text{Progress} = \frac{\text{Planned Target}}{\text{Actual Achievement}} \times 100 \\ \hline
+\text{Timeline} & \text{Milestone Date Target Compliance} & \text{If (Completion Date} \le \text{Deadline) } 100\%, \text{ else } 0\% \\ \hline
+\text{Zero} & \text{Absolute Incident Suppression} & \text{If (Actual } == 0) \, 100\%, \text{ else } 0\% \\ \hline
+\end{array}
+$$
 
+---
 
 🛠️ Step-by-Step Installation & Quickstart
 To run the unified compiled build platform locally, execute the following commands in your preferred terminal workspace:

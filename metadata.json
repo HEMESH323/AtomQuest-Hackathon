@@ -1,0 +1,6 @@
+{
+  "name": "AtomQuest Goals Portal",
+  "description": "High-performance internal B2B SaaS web application for goal management, tracking, and HR governance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

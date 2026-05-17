@@ -20,7 +20,6 @@ The **Manager Evaluation Dashboard** and **Check-in Modules** calculate performa
 
 $$\n\\begin{array}{|l|l|l|}\n\\hline\n\\textbf{UoM Type} & \\textbf{Strategic Vector} & \\textbf{Algorithmic Formula} \\\\ \\hline\n\\text{Min (Numeric / \\%)} & \\text{Higher is better (e.g., Sales Revenue)} & \\text{Progress} = \\frac{\\text{Actual Achievement}}{\\text{Planned Target}} \\times 100 \\\\ \\hline\n\\text{Max (Numeric / \\%)} & \\text{Lower is better (e.g., Turnaround Time)} & \\text{Progress} = \\frac{\\text{Planned Target}}{\\text{Actual Achievement}} \\times 100 \\\\ \\hline\n\\text{Timeline} & \\text{Milestone Date Target Compliance} & \\text{If (Completion Date} \\le \\text{Deadline) } 100\\%, \\text{ else } 0\\% \\\\ \\hline\n\\text{Zero} & \\text{Absolute Incident Suppression} & \\text{If (Actual } == 0) \\, 100\\%, \\text{ else } 0\\% \\\\ \\hline\n\\end{array}\n$$
 
----
 
 🛠️ Step-by-Step Installation & Quickstart
 To run the unified compiled build platform locally, execute the following commands in your preferred terminal workspace:
